@@ -45,4 +45,3 @@ function resetGame() {
     document.querySelectorAll('.cell').forEach(cell => cell.textContent = '');
     document.getElementById('status').textContent = 'Peli alkaa. Pelaa ensimmäinen siirto!';
 }
-

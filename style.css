@@ -13,12 +13,10 @@ body {
 }
 
 .board {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 5px;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .row {
@@ -47,4 +45,3 @@ button {
     font-size: 1em;
     cursor: pointer;
 }
-
